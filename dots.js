@@ -14,8 +14,8 @@ const dots = Array.from({ length: DOT_COUNT }).map(() => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
   r: Math.random() * 2 + 1,
-  vx: (Math.random() - 0.5) * 0.4,
-  vy: (Math.random() - 0.5) * 0.4
+  vx: (Math.random() - 0.5) * 1.2,
+  vy: (Math.random() - 0.5) * 1.2
 }));
 
 function draw() {
